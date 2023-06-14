@@ -1,0 +1,11 @@
+function contarLetras (letra) {
+  var frase = prompt("Escribe un frase").toLowerCase();
+  var conteo = 0;
+  for(var i=0; i < frase.length; i+=1) {
+    if(frase[i] === letra)
+      conteo +=1;
+  }
+  return conteo
+}
+
+console.log(contarLetras("a"));
