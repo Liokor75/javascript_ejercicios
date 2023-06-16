@@ -1,0 +1,10 @@
+function mayorDeEdad (edad) {
+   if (edad >= 18) {
+    console.log ("Eres mayor de edad con " + edad + " años");
+  } else if (edad < 18) {
+    console.log("Eres menor de edad con " + edad + " años");
+  } else {
+    alert("Tienes que introducir un valor numérico"); 
+  }
+}
+mayorDeEdad(Number(prompt("Introduce tu edad")));
