@@ -1,0 +1,8 @@
+function tablaMultiplicar(v1, v2){
+ 
+  console.log("La tabla del " + v1 + " es:")
+  for (i = 1; i <= v2; i++) {
+    console.log(v1 + " x " + i + " = " + v1*i);
+  }
+}
+tablaMultiplicar(3, 10);
