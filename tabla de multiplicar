@@ -1,0 +1,9 @@
+function tablaMultiplicar(){
+  let v1 = prompt("Multiplicador");
+  let v2 = prompt("Multiplicando");
+  console.log("La tabla del " + v1 + " es:")
+  for (i = 1; i <= v2; i++) {
+    console.log(v1 + " x " + i + " = " + v1*i);
+  }
+}
+tablaMultiplicar();
