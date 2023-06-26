@@ -1,0 +1,5 @@
+const numeroAleatorio = (min, max) => {
+    let obtenerNumero = Math.floor((Math.random()*(max - min + 1)) + min);
+    console.log(obtenerNumero);  
+}  
+numeroAleatorio(1, 10);
