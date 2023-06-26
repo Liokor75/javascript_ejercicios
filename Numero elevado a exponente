@@ -1,0 +1,22 @@
+function numeroElevadoA (num, exp) {
+  let total = num**exp;
+  console.log(total);
+}
+
+numeroElevadoA(5, 2);
+numeroElevadoA(2, 3);
+numeroElevadoA(10, 10);
+numeroElevadoA(3, 3);
+
+
+// Lo mismo usando reduce()
+
+const numElevadoA = (num, exp) => {
+  const arr = Array(exp).fill(num);
+  const reducer = arr.reduce((acum, valorAc) => acum * valorAc);
+  console.log(reducer);
+} 
+numElevadoA(2, 3);
+numElevadoA(5, 5);
+numElevadoA(10, 10);
+numElevadoA(3, 3);
