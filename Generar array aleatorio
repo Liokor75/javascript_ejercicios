@@ -1,0 +1,8 @@
+function arrayAleatorio (min, max, elementos) {
+  let miArray = [];
+  for(let i=0; i<elementos;i++){
+    miArray.push(Math.floor((Math.random()*(max - min + 1)) + min));
+  }
+  console.log(miArray);
+}
+arrayAleatorio(1, 100, 10);
