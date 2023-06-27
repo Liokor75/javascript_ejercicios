@@ -1,0 +1,10 @@
+const laborables = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'];
+// Dias a mayusculas
+laborables.forEach(dia => console.log(dia.toUpperCase()));
+// Dias a minusculas
+laborables.forEach(dia => console.log(dia.toLowerCase()));
+//Array a mayusculas
+laborables.forEach(function(dia, ind, arr){
+  arr[ind] = dia.toUpperCase();
+});
+console.log(laborables);
